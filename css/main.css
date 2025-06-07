@@ -72,10 +72,6 @@ nav li:hover {
     box-shadow: 10px -10px 50px green;/**/
 }
 
-main {
-    width: 80%;
-}
-
 section {
     display: flex;
 }
@@ -134,36 +130,6 @@ footer div {
     border-radius: 25px;
     border: 1px solid rgb(2, 107, 102);
     margin: 0 1rem;
-}
-
-.aboutus {
-    background-color: lightcoral;
-    padding: 1rem;
-    border-radius: 25px;
-    border: 1px solid rgb(2, 107, 102);
-    margin: 0 1rem;
-}
-
-.contents .item {
-    display: block;
-    border-radius: 8px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    height: auto;
-}
-
-.contents a:link{
-    color: blue;
-}
-
-.contents a:hover {
-    color: darkviolet;
-}
-
-.contents a:active {
-    color: white;
-    background-color: black;
 }
 
 .small-logo {
