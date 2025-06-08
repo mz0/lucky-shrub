@@ -73,10 +73,17 @@ section {
     display: flex;
     gap: 1%;
     margin-bottom: 2px;
+    flex-wrap: wrap;
 }
 
 article {
     flex: 1;
+}
+
+@media screen and (max-width: 992px) {
+    .highlight3 {
+        flex: 0 0 100%;
+    }
 }
 
 p {
@@ -164,5 +171,4 @@ footer div {
 .copyright {
     display: flex;
     align-items: center;
-    border-bottom: 1px solid green;
 }
