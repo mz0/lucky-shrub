@@ -31,11 +31,6 @@ h2 {
     font-size: 2rem;
 }
 
-header > img {
-    height: 70%;
-    width: auto;
-}
-
 nav {
     display: flex;
     align-items: center;
@@ -99,13 +94,13 @@ footer div {
 }
 
 .logo {
+    max-height: max(240px, 10vh);
+    width: auto;
     padding-bottom: 0.75rem;
     border: 0;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    max-width:10%;
-    max-height:10%;
 }
 
 .promo {
